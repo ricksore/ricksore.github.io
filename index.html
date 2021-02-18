@@ -18,6 +18,10 @@
                 max-height: 40px;
             }
 
+            .img-fluid.company {
+                max-height: 100px;
+            }
+
             .other-stacks {
                 margin-bottom: 10px;
             }
@@ -46,10 +50,10 @@
                             <a href="#companies" class="nav-link text-white">Companies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Projects</a>
+                            <a class="nav-link text-white" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact Me</a>
+                            <a class="nav-link text-white" href="#contactme">Contact Me</a>
                         </li>
                     </ul> 
                     <hr class="bg-white w-100 mb-3" />
@@ -232,9 +236,132 @@
                             <h1 class="display-4">Companies</h3>
                             <p class="lead">Companies I worked for</p>
                             <hr />
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum justo nisl, hendrerit sed ex a, elementum egestas metus.    
-                            </p>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-2 mb-3">
+                                            <img src="static/images/spectrum.jpg" class="img-fluid company">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <a href="https://www.spectrumone.co/" ><h5>Spectrum One IT Solutions</h5></a>
+                                            <p>Full Stack Developer <br /><small class="text-muted">Jan 2018 - Aug 2019 (1 yr 8 mos)</small></p>
+                                            <h6>Stack Used:</h6>
+                                            <ul>
+                                                <li>Django with Django Rest Framework</li>
+                                                <li>PosgreSQL / MySQL for database</li>
+                                                <li>weasyPrint for PDF generation</li>
+                                                <li>Google Cloud Engine with Kubernetes for deployment</li>
+                                                <li>Celery / Redis combo for asynchronous and cpu heavy processes</li>
+                                                <li>Django templates with jQuery / React for the frontend</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-6 mb-3">
+                                            <img src="static/images/deployed.png" class="img-fluid company">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <a href="https://deployedstaff.com/" ><h5>Deployed</h5></a>
+                                            <p>Full Stack Developer <br /><small class="text-muted">Aug 2019 - Present (1 yr 7 mos)</small></p>
+                                            <h6>Stack Used:</h6>
+                                            <ul>
+                                                <li><a href="https://trypyramid.com/" target="_blank">Pyramid</a> framework for the backend</li>
+                                                <li>Google Cloud Engine for deployment</li>
+                                                <li>Mako with jQuery / Vue for frontend</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12" id="projects">
+                        <div class="jumbotron" >
+                            <h1 class="display-4">Projects</h3>
+                            <p class="lead">Projects I worked on</p>
+                            <hr />
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-2 mb-3">
+                                            <img src="static/images/eaglewatch.jpg" class="img-fluid company">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h5>Eaglewatch</h5>
+                                            <p>Junior Developer <br /><small class="text-muted">Jan 2018 - Feb 2018</small></p>
+                                            <h6>Roles:</h6>
+                                            <ul>
+                                                <li>Adding of new data to existing reports as requested by the client</li>
+                                                <li>Maintenance of legacy features</li>
+                                            </ul>
+                                            <h6>Stack Used:</h6>
+                                            <ul>
+                                                <li>Django</li>
+                                                <li>PosgreSQL / MySQL for database</li>
+                                                <li>Django templates with jQuery</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-2 mb-3">
+                                            <img src="static/images/tbg.png" class="img-fluid company">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <a href="https://www.toolboxgenomics.com/"><h5>Toolbox Genomics</h5></a>
+                                            <p>Full Stack Developer <br /><small class="text-muted">Feb 2018 - Aug 2019</small></p>
+                                            <h6>Roles:</h6>
+                                            <ul>
+                                                <li>Maintenance of legacy features and updating them as necessary</li>
+                                                <li>Integration to third party softwares</li>
+                                                <li>Develop API to expose resources and allow third party users to integrate</li>
+                                                <li>Detect and resolve bottlenecks and perform optimization through identification of redundant processes</li>
+                                            </ul>
+                                            <h6>Stack Used:</h6>
+                                            <ul>
+                                                <li>Django with Django Rest Framework</li>
+                                                <li>PosgreSQL / MySQL for database</li>
+                                                <li>weasyPrint for pdf reports generation</li>
+                                                <li>Google Cloud Engine with Kubernetes</li>
+                                                <li>Celery / Redis for asynchronous and non web thread operations</li>
+                                                <li>Django templates with jQuery / React JS</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-2 mb-3">
+                                            <img src="static/images/beany.png" class="img-fluid company">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <a href="https://www.beany.com/"><h5>Beany</h5></a>
+                                            <p>Full Stack Developer <br /><small class="text-muted">Aug 2019 - Present</small></p>
+                                            <h6>Roles:</h6>
+                                            <ul>
+                                                <li>Update and maintain legacy features to make them more scalable</li>
+                                                <li>Integrate new <a href="https://www.ezypay.com/ph" target="_blank">payment provider</a> and maintain sales made with them</li>
+                                                <li>Create new features as requested by the client</li>
+                                                <li>Manage and update integrations with other third party softwares</li>
+                                            </ul>
+                                            <h6>Stack Used:</h6>
+                                            <ul>
+                                                <li>Pyramid framwork</li>
+                                                <li>MongoDB</li>
+                                                <li>Google Cloud Engine</li>
+                                                <li>Mako templates with jQuery / Vue JS</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
